@@ -16,7 +16,7 @@ async function valorantApi() {
         if (item.isPlayableCharacter) {
 
             campo.innerHTML += ` <div class="card" id="${item.displayName}" style="background-color: #${item.backgroundGradientColors[0]}">
-                <img src="${item.fullPortrait}" class="agent-img" style="background-image: url('${item.background}');" />
+                <img src="${item.fullPortrait}" class="agent-img" style="background-image: url('${item.background}');" alt="card com imagem do personagem ${item.displayName} do jogo VALORANT" />
                 <button class="button-descricao" style="background-color: #${item.backgroundGradientColors[0]}" onclick="mudar(this)">Description</button>
                 <div id="d" class="agent-descricao" style="background-color: #${item.backgroundGradientColors[0]}">
                 <p class="agent-descricao-text" >${item.description}</p>
