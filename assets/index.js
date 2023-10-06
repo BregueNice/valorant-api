@@ -37,10 +37,10 @@ async function valorantApi() {
 }
 
 function mudar(obj) {
-    if (obj.parentNode.childNodes[5].style.display == 'none') {
-        obj.parentNode.childNodes[5].style.display = 'flex';
+    if (obj.parentNode.childNodes[5].style.display == 'flex') {
+        obj.parentNode.childNodes[5].style.display = 'none';
     }else{
-        obj.parentNode.childNodes[5].style.display= 'none';
+        obj.parentNode.childNodes[5].style.display= 'flex';
     }
 }
 
