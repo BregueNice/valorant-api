@@ -1,4 +1,4 @@
-https://valorant-api-beryl.vercel.app/
+https://valorant-api-rosy.vercel.app/
 
 #Projeto com cards dos agentes do valorant
 
