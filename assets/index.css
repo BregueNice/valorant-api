@@ -39,7 +39,7 @@ header ul li button:hover {
     transition-duration: 0.5s;
 }
 
-.card{
+.card {
     border: 1px solid black;
     border-radius: 10px;
     width: 400px;
@@ -54,7 +54,7 @@ header ul li button:hover {
     position: relative;
 }
 
-#campo{
+#campo {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -64,16 +64,16 @@ header ul li button:hover {
     position: relative;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
     transition-duration: 0.5s;
 }
 
-.skill-icon{
+.skill-icon {
     width: 50px;
 }
 
-.skill-lists{
+.skill-lists {
     padding: 0px 10px;
     display: flex;
     justify-content: space-evenly;
@@ -81,7 +81,7 @@ header ul li button:hover {
     bottom: 0px;
 }
 
-.agent-img{
+.agent-img {
     width: auto;
     height: 100%;
     height: 100%;
@@ -89,12 +89,12 @@ header ul li button:hover {
     background-position: center;
 }
 
-.agent-name{
+.agent-name {
     font-size: 20px;
     padding: 10px 0px;
 }
 
-.agent-descricao{
+.agent-descricao {
     position: absolute;
     display: none;
     justify-content: center;
@@ -104,18 +104,18 @@ header ul li button:hover {
     z-index: 0;
 }
 
-.agent-descricao-text{
+.agent-descricao-text {
     text-align: center;
     color: black;
     padding: 0px 40px;
 }
 
-.button-descricao:hover{
+.button-descricao:hover {
     color: red;
     border: 1px solid red;
 }
 
-.button-descricao{
+.button-descricao {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -124,4 +124,18 @@ header ul li button:hover {
     z-index: 1;
     box-shadow: 0px 0px 5px black;
     border: 1px solid black;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+
+    .card {
+        border: 1px solid black;
+        border-radius: 10px;
+        max-width: 300px;
+        max-height: 400px;
+        padding: 10px;
+    }
+
+
 }

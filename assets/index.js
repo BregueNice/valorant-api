@@ -7,8 +7,6 @@ async function valorantApi() {
     let conexaoMap = await fetch('https://valorant-api.com/v1/maps');
     let conexaoMapConvertida = await conexaoMap.json();
 
-    console.log(conexaoConvertida);
-
     campo.style.backgroundImage = `url('${conexaoMapConvertida.data[Math.round(Math.random() * 14)].splash}')`;
 
     conexaoConvertida.data.forEach(item => {
