@@ -125,6 +125,7 @@ header ul li button:hover {
     box-shadow: 0px 0px 5px black;
     border: 1px solid black;
     cursor: pointer;
+    width: 90px;
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {
