@@ -48,8 +48,6 @@ function mudar(obj) {
         obj.parentNode.style.transform = 'rotateY(180deg)'
         obj.parentNode.childNodes[5].style.transform = 'rotateY(-180deg)'
     }
-    console.log(obj.parentNode.childNodes[3]);
-
 }
 
 valorantApi()
