@@ -37,9 +37,20 @@ async function valorantApi() {
 function mudar(obj) {
     if (obj.parentNode.childNodes[5].style.display == 'flex') {
         obj.parentNode.childNodes[5].style.display = 'none';
-    }else{
-        obj.parentNode.childNodes[5].style.display= 'flex';
+        obj.parentNode.style.transform = 'rotateY(0deg)';
+        obj.style.transform = 'rotateY(0deg)';
+        obj.style.right='5px';
+        obj.style.top='5px';
+    } else {
+        obj.parentNode.childNodes[5].style.display = 'flex';
+        obj.style.transform = 'rotateY(180deg)';
+        obj.style.right='330px';
+        obj.parentNode.style.transform = 'rotateY(180deg)'
+        obj.parentNode.childNodes[5].style.transform = 'rotateY(-180deg)'
+        
     }
+    console.log(obj.parentNode.childNodes[3]);
+
 }
 
 valorantApi()

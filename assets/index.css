@@ -111,8 +111,8 @@ header ul li button:hover {
 }
 
 .button-descricao:hover {
-    color: red;
-    border: 1px solid red;
+    color: gray;
+    border: 1px solid gray;
 }
 
 .button-descricao {
